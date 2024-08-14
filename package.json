@@ -1,4 +1,11 @@
 {
+  "homepage": "https://loginonce.github.io/ecommerce.github.io"
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  }
+}
+{
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
